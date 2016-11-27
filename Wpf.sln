@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridLayout", "Layout\GridLayout.csproj", "{BA67B074-EC42-4B0C-9689-3FF444318F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlAttribute", "XamlAttribute\XamlAttribute.csproj", "{BB57C783-FEFA-493A-A036-A0EDA74C5DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNamespace", "XNamespace\XNamespace.csproj", "{343630F6-4D64-4AAA-8C90-364EA35787F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackLayout", "StackLayout\StackLayout.csproj", "{64F0F793-11C1-4476-8181-A42926CB35B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridSplitter", "GridSplitter\GridSplitter.csproj", "{01A848C8-B214-45D0-8669-90A0748955DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding", "Binding\Binding.csproj", "{2029855C-71DE-4EFB-868A-2DDC4D3C0D20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA67B074-EC42-4B0C-9689-3FF444318F62}.Debug|x86.ActiveCfg = Debug|x86
+		{BA67B074-EC42-4B0C-9689-3FF444318F62}.Debug|x86.Build.0 = Debug|x86
+		{BA67B074-EC42-4B0C-9689-3FF444318F62}.Release|x86.ActiveCfg = Release|x86
+		{BA67B074-EC42-4B0C-9689-3FF444318F62}.Release|x86.Build.0 = Release|x86
+		{BB57C783-FEFA-493A-A036-A0EDA74C5DAA}.Debug|x86.ActiveCfg = Debug|x86
+		{BB57C783-FEFA-493A-A036-A0EDA74C5DAA}.Debug|x86.Build.0 = Debug|x86
+		{BB57C783-FEFA-493A-A036-A0EDA74C5DAA}.Release|x86.ActiveCfg = Release|x86
+		{BB57C783-FEFA-493A-A036-A0EDA74C5DAA}.Release|x86.Build.0 = Release|x86
+		{343630F6-4D64-4AAA-8C90-364EA35787F2}.Debug|x86.ActiveCfg = Debug|x86
+		{343630F6-4D64-4AAA-8C90-364EA35787F2}.Debug|x86.Build.0 = Debug|x86
+		{343630F6-4D64-4AAA-8C90-364EA35787F2}.Release|x86.ActiveCfg = Release|x86
+		{343630F6-4D64-4AAA-8C90-364EA35787F2}.Release|x86.Build.0 = Release|x86
+		{64F0F793-11C1-4476-8181-A42926CB35B1}.Debug|x86.ActiveCfg = Debug|x86
+		{64F0F793-11C1-4476-8181-A42926CB35B1}.Debug|x86.Build.0 = Debug|x86
+		{64F0F793-11C1-4476-8181-A42926CB35B1}.Release|x86.ActiveCfg = Release|x86
+		{64F0F793-11C1-4476-8181-A42926CB35B1}.Release|x86.Build.0 = Release|x86
+		{01A848C8-B214-45D0-8669-90A0748955DF}.Debug|x86.ActiveCfg = Debug|x86
+		{01A848C8-B214-45D0-8669-90A0748955DF}.Debug|x86.Build.0 = Debug|x86
+		{01A848C8-B214-45D0-8669-90A0748955DF}.Release|x86.ActiveCfg = Release|x86
+		{01A848C8-B214-45D0-8669-90A0748955DF}.Release|x86.Build.0 = Release|x86
+		{2029855C-71DE-4EFB-868A-2DDC4D3C0D20}.Debug|x86.ActiveCfg = Debug|x86
+		{2029855C-71DE-4EFB-868A-2DDC4D3C0D20}.Debug|x86.Build.0 = Debug|x86
+		{2029855C-71DE-4EFB-868A-2DDC4D3C0D20}.Release|x86.ActiveCfg = Release|x86
+		{2029855C-71DE-4EFB-868A-2DDC4D3C0D20}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
