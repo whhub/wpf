@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:binding="clr-namespace:Binding"
         xmlns:system="clr-namespace:System;assembly=mscorlib"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="515" Width="525">
     <StackPanel>
         <StackPanel.DataContext>
             <binding:Student Name="Tim" Id="0003" Age="29" />
@@ -33,6 +33,22 @@
             <TextBlock Text="{Binding}" />
             <TextBlock Text="{Binding}" />
             <TextBlock Text="{Binding}" />
+        </StackPanel>
+        <StackPanel Background="LightBlue">
+            <TextBlock Text="Student ID:" FontWeight="Bold" Margin="5"></TextBlock>
+            <TextBox x:Name="TextBoxID" Margin="5"></TextBox>
+            <TextBlock Text="Student List:" FontWeight="Bold" Margin="5"></TextBlock>
+            <ListBox x:Name="ListBoxStudents" Height="110" Margin="5">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding Path=Id}" Width="30"></TextBlock>
+                            <TextBlock Text="{Binding Path=Name}" Width="60"></TextBlock>
+                            <TextBlock Text="{Binding Path=Age}" Width="30"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
         </StackPanel>
     </StackPanel>
 </Window>
