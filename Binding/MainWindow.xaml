@@ -2,6 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:binding="clr-namespace:Binding"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
         Title="MainWindow" Height="350" Width="525">
     <StackPanel>
         <StackPanel.DataContext>
@@ -14,5 +15,14 @@
         <TextBox Text="{Binding Name}" />
         <TextBox Text="{Binding Id}" />
         <TextBox Text="{Binding Age}" />
+        <StackPanel>
+            <StackPanel.Resources>
+                <system:String x:Key="String">
+                    菩提本无树，明镜亦非台。
+                    本来无一物，何处惹尘埃。
+                </system:String>
+            </StackPanel.Resources>
+            <TextBlock TextWrapping="Wrap" Text="{Binding Path=., Source={StaticResource String}}"></TextBlock>
+        </StackPanel>
     </StackPanel>
 </Window>
