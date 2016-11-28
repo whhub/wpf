@@ -26,5 +26,13 @@
             <TextBlock Text="{Binding Path=Text.Length, ElementName=TextBlock1, Mode=OneWay}" Margin="5" />
             <TextBlock Text="{Binding Path=Text.[6], ElementName=TextBlock1, Mode=OneWay}" />
         </StackPanel>
+        <StackPanel>
+            <StackPanel.DataContext>
+                <system:String>Hello DataContext!</system:String>
+            </StackPanel.DataContext>
+            <TextBlock Text="{Binding}" />
+            <TextBlock Text="{Binding}" />
+            <TextBlock Text="{Binding}" />
+        </StackPanel>
     </StackPanel>
 </Window>
