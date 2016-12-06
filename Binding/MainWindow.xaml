@@ -50,5 +50,14 @@
                 </ListBox.ItemTemplate>
             </ListBox>
         </StackPanel>
+        <Grid x:Name="g1" Background="Red" Margin="10">
+            <DockPanel x:Name="d1" Background="Orange" Margin="10">
+                <Grid x:Name="g2" Background="Yellow" Margin="10">
+                    <DockPanel x:Name="d2" Background="LawnGreen" Margin="10">
+                        <TextBox x:Name="tb1" FontSize="24" Margin="10" Text="{Binding RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type Grid}, AncestorLevel=1}, Path=Name}"></TextBox>
+                    </DockPanel>
+                </Grid>
+            </DockPanel>
+        </Grid>
     </StackPanel>
 </Window>
