@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridSplitter", "GridSplitte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding", "Binding\Binding.csproj", "{2029855C-71DE-4EFB-868A-2DDC4D3C0D20}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{F305A3A0-E37A-402F-9C2B-960211F60C03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentControlDataTemplate", "ContentControlDataTemplate\ContentControlDataTemplate.csproj", "{1FD693E9-DE25-4633-B497-B901A1477882}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -43,8 +47,15 @@ Global
 		{2029855C-71DE-4EFB-868A-2DDC4D3C0D20}.Debug|x86.Build.0 = Debug|x86
 		{2029855C-71DE-4EFB-868A-2DDC4D3C0D20}.Release|x86.ActiveCfg = Release|x86
 		{2029855C-71DE-4EFB-868A-2DDC4D3C0D20}.Release|x86.Build.0 = Release|x86
+		{1FD693E9-DE25-4633-B497-B901A1477882}.Debug|x86.ActiveCfg = Debug|x86
+		{1FD693E9-DE25-4633-B497-B901A1477882}.Debug|x86.Build.0 = Debug|x86
+		{1FD693E9-DE25-4633-B497-B901A1477882}.Release|x86.ActiveCfg = Release|x86
+		{1FD693E9-DE25-4633-B497-B901A1477882}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FD693E9-DE25-4633-B497-B901A1477882} = {F305A3A0-E37A-402F-9C2B-960211F60C03}
 	EndGlobalSection
 EndGlobal
