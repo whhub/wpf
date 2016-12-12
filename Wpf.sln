@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentControlDataTemplate"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commands", "Commands\Commands.csproj", "{EAF6D0D7-A4CF-4925-A857-028113C382C3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{79E0CEA8-B84C-4918-9CFE-93C2234CFA2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandParameter", "CommandParameter\CommandParameter.csproj", "{BA57F414-38B4-463E-88D0-1995A004B5E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -57,11 +61,17 @@ Global
 		{EAF6D0D7-A4CF-4925-A857-028113C382C3}.Debug|x86.Build.0 = Debug|x86
 		{EAF6D0D7-A4CF-4925-A857-028113C382C3}.Release|x86.ActiveCfg = Release|x86
 		{EAF6D0D7-A4CF-4925-A857-028113C382C3}.Release|x86.Build.0 = Release|x86
+		{BA57F414-38B4-463E-88D0-1995A004B5E0}.Debug|x86.ActiveCfg = Debug|x86
+		{BA57F414-38B4-463E-88D0-1995A004B5E0}.Debug|x86.Build.0 = Debug|x86
+		{BA57F414-38B4-463E-88D0-1995A004B5E0}.Release|x86.ActiveCfg = Release|x86
+		{BA57F414-38B4-463E-88D0-1995A004B5E0}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1FD693E9-DE25-4633-B497-B901A1477882} = {F305A3A0-E37A-402F-9C2B-960211F60C03}
+		{EAF6D0D7-A4CF-4925-A857-028113C382C3} = {79E0CEA8-B84C-4918-9CFE-93C2234CFA2F}
+		{BA57F414-38B4-463E-88D0-1995A004B5E0} = {79E0CEA8-B84C-4918-9CFE-93C2234CFA2F}
 	EndGlobalSection
 EndGlobal
