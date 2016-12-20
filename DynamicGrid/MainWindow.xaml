@@ -1,8 +1,9 @@
 ﻿<Window x:Class="DynamicGrid.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dynamicGrid="clr-namespace:DynamicGrid"
         Title="MainWindow" Height="350" Width="525">
     <Grid x:Name="MainfGrid">
-        
+        <dynamicGrid:BoardControl DisplayMode="{Binding DisplayMode}" />
     </Grid>
 </Window>
