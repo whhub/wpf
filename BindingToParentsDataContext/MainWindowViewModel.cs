@@ -1,4 +1,7 @@
+using System;
+using System.Windows.Input;
 using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Command;
 
 namespace BindingToParentsDataContext
 {
@@ -21,6 +24,21 @@ namespace BindingToParentsDataContext
 
         #endregion [--NumInMainWindowDataContext--]
 
+        #region [--StartTestCommand--]
+
+        private ICommand _startTestCommand;
+
+        public ICommand StartTestCommand
+        {
+            get { return _startTestCommand = _startTestCommand ?? new RelayCommand(StartTest); }
+        }
+
+        private void StartTest()
+        {
+            NumInMainWindowDataContext++;
+        }
+
+        #endregion [--StartTestCommand--]    
 
     }
 }
